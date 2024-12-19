@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.instructions {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.choices button {
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4caf4fea;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.choices button:hover {
+    background-color: #45a049;
+}
+
+.result, .score {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333;
+}
